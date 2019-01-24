@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Samurai Champloo Fighting RPG!!!</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<!-- html placeholders and format -->
+
+<body>
+    <div class="container">
+        <h1 class="text-center" id="title">Samurai Champloo Fighting RPG!!!</h1>
+        <div class="row" id="pickable-characters">
+            <div id="mugen" class="card mugen">
+                <img class="card-img-top" style="width: 180px; height: 180px;" src="assets/images/Mugen.png" alt="Mugen">
+                <div class="card-body">
+                    <p class="card-text" id="mugen-hp">mugen.healthPoints</p>
+                </div>
+            </div>
+            <div id="jin" class="card">
+                <img class="card-img-top" style="width: 180px; height: 180px;" src="assets/images/jin.jpg" alt="Jin">
+                <div class="card-body">
+                    <p class="card-text" id="jin-hp">HP Placeholder</p>
+                </div>
+            </div>
+            <div id="shoryu" class="card">
+                <img class="card-img-top" style="width: 180px; height: 180px;" src="assets/images/Shoryu.png" alt="Shoryu">
+                <div class="card-body">
+                    <p class="card-text" id="shoryu-hp">HP Placeholder</p>
+                </div>
+            </div>
+            <div id="kk" class="card">
+                <img class="card-img-top" style="width: 180px; height: 180px;" src="assets/images/KK.jpg" alt="KK">
+                <div class="card-body">
+                    <p class="card-text" id="kk-hp">kk.healthPoints</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Your Character</h2>
+        </div>
+        <div class="row" id="character">
+        </div>
+        <div class="row">Enemies Abvailable To Attack</div>
+        <div class="row" id="enemies"></div>
+        <div class="row">Fight Section</div>
+        <div class="row">
+            <button id="fight-button" class="btn btn-danger">
+                <h1>FIGHT!</h1>
+            </button> </div>
+        <div class="row">Defender</div>
+        <div class="row" id="defender"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
